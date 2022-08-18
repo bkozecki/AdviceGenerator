@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(218, 23%, 16%);
+}
+.wrap {
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+@media only screen and (max-width: 500px) {
+  .body {
+    flex-direction: column;
+    font-size: 0.8rem;
+  }
+  .wrap {
+    width: 70%;
+  }
+  .main__div {
+    flex-direction: column;
+  }
+  .div__border {
+    margin: auto;
+    width: 70%;
+    overflow: hidden;
+  }
+  .img {
+    padding: 0;
+  }
+}
+.main__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+.advice_id {
+  text-align: center;
+  color: hsl(150, 100%, 66%);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.div__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+.advice__text {
+  padding: 1rem;
+  color: hsl(193, 38%, 86%);
+  font-size: 1.6rem;
+}
+.div__border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  padding: 1rem 0;
+}
+.btn_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem 0;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  background-color: hsl(150, 100%, 66%);
+  top: 50%;
+  border: none;
+  transition: 0.2s all;
+}
+.btn:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 17px 1px rgba(82, 255, 168, 1);
+  -moz-box-shadow: 0px 0px 17px 1px rgba(82, 255, 168, 1);
+  box-shadow: 0px 0px 17px 1px rgba(82, 255, 168, 1);
+}
+.btn:active {
+  background-color: hsla(150, 100%, 66%, 0.843);
+}
