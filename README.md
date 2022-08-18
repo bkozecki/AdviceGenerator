@@ -14,8 +14,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/bkozecki/AdviceGenerator]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/bkozecki/AdviceGenerator
+- Live Site URL: 
 
 ## My process
 
@@ -28,15 +28,10 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I was able to practise my Asynchronous JavaScript calls and fetching data from API, which was very fun and gave me an opportunity to practice this very important part of FrontEnd Programming.
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - https://www.frontendmentor.io/profile/bkozecki
 # AdviceGenerator
