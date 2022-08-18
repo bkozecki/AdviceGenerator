@@ -15,7 +15,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/bkozecki/AdviceGenerator
-- Live Site URL: 
+- Live Site URL: https://bkozecki.github.io/AdviceGenerator/
 
 ## My process
 
